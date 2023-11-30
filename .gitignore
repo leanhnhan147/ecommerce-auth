@@ -1,0 +1,35 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# project ignore
+source/ecommerce-auth/application-production.properties
+source/ecommerce-auth/deploy_ec2.sh
+source/ecommerce-auth/execute_jar_on_vm.sh
+source/ecommerce-auth/target
+source/ecommerce-auth/logs
+source/ecommerce-auth/.idea
+source/ecommerce-auth/*.iml
